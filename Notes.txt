@@ -1,0 +1,12 @@
+1) SPH contains the test scripts(src/test/java) for both mobile and browser tests for scenario1 & 2
+2) Tests were written in Cucumber framework and structure follows as below
+  - Features- contains the feature files
+  - Selenium - contains actual code of selenium actions
+  - Runner - contains the test runner tests which binds Features and Selenium tests together.
+
+3) Shared_Library- Located in Selenium scripts are the shared functions which are reusable functions can be
+                   used for both Mobile and Browser.
+
+4) Test Reports - used extentreports for test results for browser. Not much for Android.
+
+5) Maven build- pom.xml contains all the libraries installed.
